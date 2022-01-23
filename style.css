@@ -36,8 +36,17 @@ body{
     color: white;
 }
 /* section two */
+hr{
+    width: 30%;
+}
+span{
+    color:#E02C6D ;
+}
 .popular-collection{
     text-align: center;
+    font-size: 30px;
+    margin-top: 100px;
+    
 }
 .rating{
     display: flex;
@@ -58,7 +67,7 @@ padding: 17px 0 17px 27px;
 .section-two{
     max-width:85% ;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .collections{
     display: grid;
@@ -70,6 +79,10 @@ padding: 17px 0 17px 27px;
 
 
 /* section three */
+.influencer-detail{
+    text-align: center;
+    margin-top: 80px;
+}
 .container{
     width: 85%;
     height: 100vh;
@@ -124,4 +137,20 @@ background-image: url(images/action.png)
 }
 .card:hover{
     transform: translateY(-12px);
+}
+/* footer */
+footer{
+    
+    background-color:  #0A0826;;
+    text-align: center;
+    padding: 50px;
+    color: white;
+    margin-top: 10px;
+}
+.fab{
+    background-color:#73709749;
+    padding: 8px;
+    border: 1px solid #73709749;
+    border-radius: 20px;
+    margin-right: 16px;
 }
