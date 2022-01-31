@@ -50,13 +50,13 @@ span{
     margin-top: 100px;
     
 }
-.rating{
+/* .rating{
     display: flex;
 align-items: center;
 
-}
+} */
 .collection{
-  width: 329px;
+width: 329px;
 height: 476px;
 background: #FFFFFF;
 box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -66,7 +66,13 @@ padding: 017px 0 17px 27px;
 
 }
  .collection-photo{
+     width: 300px;
+     height: 250px;
    overflow: hidden;
+   border-radius: 5px;
+}
+.collection-photo img{
+    width: 100%;
 }
 
 .collection-photo:hover img{
@@ -173,14 +179,13 @@ footer{
           background-image: none;
           margin-left: 70px;
           margin-top: 30px;
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
+         
      }
-     .influencer-banner img{
+     /* .influencer-banner img{
        width: 257px;
-height: 257px;
-left: 51px;
-top: 81px;
-     }
+        height: 257px;
+        left: 51px;
+        top: 81px;
+     } */
      
 }
